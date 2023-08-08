@@ -1,5 +1,11 @@
 ## InputUtilsSidd - Utility Functions for User Inputs
 
+### IMPORTANT
+##### The import has to be:
+```python
+from InputUtils import input_utils
+```
+
 [![PyPI Version](https://img.shields.io/pypi/v/InputUtilsSidd)](https://pypi.org/project/InputUtilsSidd/)
 
 [PyPI Link for this project](https://pypi.org/project/InputUtilsSidd/)
@@ -73,8 +79,9 @@ pip install InputUtilsSidd
 
 With these utility functions, you can simplify user interactions and ensure smoother user experiences in your Python programs. Enjoy using `InputUtilsSidd` for interactive user inputs!
 ### Example Usage
+
 ```python
-import InputUtilsSidd as utils
+from InputUtils import input_utils as utils
 
 # Example usage of the utility functions:
 
