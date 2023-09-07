@@ -26,9 +26,10 @@ pip install InputUtilsSidd
 
    - `prompt`: The message to display to the user as the input prompt.
    - `input_type`: The type of input expected (e.g., `int`, `float`, `str`, etc.).
-2. `get_number_input(prompt, input_type)`
+   - 
+2. `get_number_input(prompt, input_type)` 
 
-
+     This function prompts the user with the given `prompt` message and expects input of the specified `low` and `high`. It keeps prompting until a valid number is provided. If the input is blank, it raises a `ValueError`.
 
 3. `get_choice_input(prompt, choices)`
 
