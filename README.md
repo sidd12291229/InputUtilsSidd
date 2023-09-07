@@ -26,52 +26,55 @@ pip install InputUtilsSidd
 
    - `prompt`: The message to display to the user as the input prompt.
    - `input_type`: The type of input expected (e.g., `int`, `float`, `str`, etc.).
+2. `get_number_input(prompt, input_type)`
 
-2. `get_choice_input(prompt, choices)`
+
+
+3. `get_choice_input(prompt, choices)`
 
    This function prompts the user with the given `prompt` message and expects the user to choose from a list of `choices`. It keeps prompting until a valid choice is made and returns the chosen option.
 
    - `prompt`: The message to display to the user as the input prompt.
    - `choices`: A list of options from which the user can choose.
 
-3. `get_file_path(prompt)`
+4. `get_file_path(prompt)`
 
    This function prompts the user with the given `prompt` message and expects a file path input. It checks if the provided path corresponds to an existing file and returns the valid file path.
 
    - `prompt`: The message to display to the user as the input prompt.
 
-4. `get_directory_path(prompt)`
+5. `get_directory_path(prompt)`
 
    This function prompts the user with the given `prompt` message and expects a directory path input. It checks if the provided path corresponds to an existing directory and returns the valid directory path.
 
    - `prompt`: The message to display to the user as the input prompt.
 
-5. `get_date_input(prompt)`
+6. `get_date_input(prompt)`
 
    This function prompts the user with the given `prompt` message and expects a date input in the format `YYYY-MM-DD`. It converts the input into a Python `date` object and returns it.
 
    - `prompt`: The message to display to the user as the input prompt.
 
-6. `get_time_input(prompt)`
+7. `get_time_input(prompt)`
 
    This function prompts the user with the given `prompt` message and expects a time input in the format `HH:MM`. It converts the input into a Python `time` object and returns it.
 
    - `prompt`: The message to display to the user as the input prompt.
 
-7. `get_choice_from_list(prompt, options_list)`
+8. `get_choice_from_list(prompt, options_list)`
 
    This function prompts the user with the given `prompt` message and displays a list of options. The user is expected to choose an option by providing the corresponding number. It returns the selected option from the list.
 
    - `prompt`: The message to display to the user as the input prompt.
    - `options_list`: A list of options from which the user can choose.
 
-8. `get_multiline_input(prompt)`
+9. `get_multiline_input(prompt)`
 
    This function prompts the user with the given `prompt` message and expects multiple lines of text as input. The user can input multiple lines, and pressing Enter on an empty line will indicate the end of input. It returns the entered lines as a single string.
 
    - `prompt`: The message to display to the user as the input prompt.
 
-9. `get_yes_or_no_input(prompt)`
+10. `get_yes_or_no_input(prompt)`
 
    This function is a specialized version of `get_choice_input`, where the user is prompted with the given `prompt` message and expects either "yes" or "no" as input. It returns the chosen option ("yes" or "no").
 
