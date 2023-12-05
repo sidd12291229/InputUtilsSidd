@@ -10,6 +10,8 @@ from InputUtils import input_utils
 
 [PyPI Link for this project](https://pypi.org/project/InputUtilsSidd/)
 
+[![forthebadge](Python)](https://forthebadge.com)
+
 ### Installation
 
 You can easily install InputUtilsSidd using pip:
